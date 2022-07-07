@@ -27,5 +27,6 @@ class SharedManager {
 }
 
 enum SharedManagerKeys {
-  users,
+  email,
+  password,
 }

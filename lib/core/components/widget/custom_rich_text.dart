@@ -24,7 +24,7 @@ class CustomRichText extends StatelessWidget {
           style: Theme.of(context)
               .textTheme
               .subtitle1
-              ?.copyWith(color: colorItems.bodyColor),
+              ?.copyWith(color: colorItems.textColor),
           children: <TextSpan>[
             TextSpan(
                 text: buttonTitle,
